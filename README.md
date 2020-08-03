@@ -9,16 +9,9 @@ The Admin Dashboard and the Warden Dashboard are inside the **TrackerMatephp** f
 The Remaining files in the repository contains **Face Recognition**, **Gesture Recognition**, **Speech Recognition** and **Emotion Detection** integrated in FLASK app.
 
 ## Prerequisites
+Run the following command to install the required packages.
 ```
-Python3.8
-Flask 1.2
-MySQL
-pip install tensorfow
-pip install cv2
-pip install keras
-pip install pillow
-pip install flask_mysqldb
-pip install pyaudio
+pip install -r requirements.txt
 ```
 
 To run the FLASK app
