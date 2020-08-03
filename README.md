@@ -2,7 +2,7 @@
 
 # TrackerMate
       
-      A web application 
+      A web application which tracks the prisoners inside the jail and their activities based on their face, gesture, voice and emotion. 
 
 The Admin Dashboard and the Warden Dashboard are inside the **TrackerMatephp** folder
 
