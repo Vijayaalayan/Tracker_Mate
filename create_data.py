@@ -1,8 +1,8 @@
-#creating database
+
 import cv2, sys, numpy, os
 def pass_variable(user):
     haar_file = 'haarcascade_frontalface_default.xml'
-    datasets = 'datasets'  #All the faces data will be present this folder
+    datasets = 'datasets'  
     sub_data = user
 
     path = os.path.join(datasets, sub_data)
@@ -12,9 +12,9 @@ def pass_variable(user):
 
 
     face_cascade = cv2.CascadeClassifier(haar_file)
-    webcam = cv2.VideoCapture(0) #'0' is use for my webcam, if you've any other camera attached use '1' like this
+    webcam = cv2.VideoCapture(0)
 
-    # The program loops until it has 30 images of the face.
+    # The program loops until it has 60 images of the face.
     count = 1
     while count < 60: 
         (_, im) = webcam.read()
