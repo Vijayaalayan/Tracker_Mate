@@ -8,12 +8,6 @@ The Admin Dashboard and the Warden Dashboard are inside the **TrackerMatephp** f
 
 The Remaining files in the repository contains **Face Recognition**, **Gesture Recognition**, **Speech Recognition** and **Emotion Detection** integrated in FLASK app.
 
-To run the FLASK app
-```
-set FLASK_APP=app1.py
-flask run
-```
-
 ## Prerequisites
 ```
 Python3.8
@@ -26,4 +20,11 @@ pip install pillow
 pip install flask_mysqldb
 pip install pyaudio
 ```
+
+To run the FLASK app
+```
+set FLASK_APP=app1.py
+flask run
+```
+
 ## Live Demo 0f Admin/Warden Dashboard
